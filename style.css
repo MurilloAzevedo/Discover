@@ -1,4 +1,4 @@
-body{
+body {
   /*
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -9,8 +9,29 @@ body{
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-#container{
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#container {
   width: 360px;
   height: 712px;
   border: 1px solid red;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+  margin: auto;
+  display: block;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+
 }
