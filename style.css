@@ -9,6 +9,12 @@ body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body * {
   font-family: "Inter", sans-serif;
   color: white;
@@ -16,8 +22,8 @@ body * {
 
 #container {
   width: 360px;
-  height: 712px;
   border: 1px solid red;
+  margin: auto;
 }
 
 #profile {
