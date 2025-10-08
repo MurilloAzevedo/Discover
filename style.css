@@ -81,11 +81,17 @@ body * {
 
   position: absolute;
   top: 50%;
-  z-index: 0;
+  left: 0;
+  z-index: 1;
   transform: translateY(-50%);
 }
 
-#switch span{
+.light #switch button {
+  right: 0;
+  left: initial;
+}
+
+#switch span {
   display: block;
   width: 64px;
   height: 24px;
